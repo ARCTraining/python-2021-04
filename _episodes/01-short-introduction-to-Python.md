@@ -73,6 +73,28 @@ Hello World
 ~~~
 {: .output}
 
+### Python Notebooks
+
+During this workshop we'll be using [Google Colab](https://colab.research.google.com/). These are a Google implementation of [Jupyter notebooks](https://jupyter.org/) a web-based interactive development environment for Python (and other languages). 
+
+In the notebooks you have cells which can either be a code cell or a markdown cell.
+
+* Code cells are just like the interactive python interpreter and allow you to write a block of code that you can then run all at once. You can run a cell by selecting it and pressing `Shift+Enter`
+* Markdown cells are for including annotations using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/).
+
+Within the notebook cells you primarily run python code, but it is also possible to run shell commands:
+
+~~~
+# in a colab notebook we start shell commands with an exclamation mark !
+! ls
+~~~
+{: .language-bash}
+
+~~~
+sample_data
+~~~
+{: .output}
+
 ## Introduction to Python built-in data types
 
 ### Strings, integers, and floats
